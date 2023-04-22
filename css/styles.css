@@ -1,0 +1,2594 @@
+/* NAVBAR */
+.navbarM
+{
+	margin-top: 58px;
+}
+.navbar .navbar-brand
+{
+	background-color: #f5f5f5;
+	color: #CC0000;
+	font-weight: bold;
+}
+.navbar
+{
+	background-color: #CC0000; 
+}
+.navbar .navbar-nav .nav-item  
+{
+	color: white;
+	font-weight: bold;
+}
+.navbar .navbar-nav .nav-link, .navbar .navbar-nav .dropdown .nav-link
+{
+	color: white;
+	background-color: transparent;
+}
+.navbar .navbar-nav .dropdown-menu
+{
+	background-color: #CC0000; 	
+}
+.navbar .navbar-nav .dropdown .dropdown-menu .dropdown-item
+{
+	background-color: transparent;
+	color: white;
+	font-weight: bold;
+}
+.navbar .navbar-nav .nav-item:hover 
+{
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .dropdown .nav-link:hover
+{
+	background-color: transparent;
+	color: white;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover
+{
+	background-color: rgba(255, 255, 255, 0.3);	
+}
+.navbar .navbar-nav .nav-item:active 
+{
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item:active
+{
+	background-color: rgba(255, 255, 255, 0.3);	
+}
+.navbar .navbar-nav .nav-link:active, .navbar .navbar-nav .dropdown .nav-link:active
+{
+	background-color: transparent;
+	color: white;
+}
+.custom-toggler .navbar-toggler-icon 
+{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler:hover 
+{
+    border: 2px solid white;
+}
+.custom-toggler.navbar-toggler:active
+{
+	border: none;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+#iconI
+{
+	widows: 3rem;
+	height: 3rem;
+}
+#user, #admin
+{
+	display: none;
+}
+/* navbar */
+
+/* TYPOGRAPHY */
+h1
+{
+	font-family: Verdana, sans-serif;
+}
+body
+{
+	font-family: Arial, sans-serif;
+}
+#textIntro h1, #textIntro p, #containerCalendar h1
+{
+	color: white;
+	font-weight: bold;
+	font-family: Verdana, sans-serif;
+}
+#textIntro p 
+{
+	line-height: 1.8rem;
+}
+#descTeam h4, #socialMediaTeam h4
+{
+	font-weight: bold;
+	margin-bottom: 1rem; 
+}
+#descTeam p
+{
+	line-height: 1.4rem;
+	margin-bottom: 0.5rem;
+	margin-top: 0rem;
+}
+#cardPlayer h4, #cardPlayerEdit h4
+{
+	text-align: center;
+	color: white;
+	font-family: "Arial Black", sans-serif;
+	font-weight: 900;
+	margin: 0;
+}
+#cardPlayer .card-body p, #cardPlayerEdit .card-body p
+{
+	color: #37474F;
+	font-weight: bold;
+}
+#Players h1
+{
+	font-weight: 900;
+}
+#cardPlayer .nrPlayer, #cardPlayerEdit .nrPlayer
+{
+	color: #CC0000;
+	background-color: white;
+	font-family: "Arial Black", Verdana, sans-serif;
+	font-size: 900;
+	padding: 0.5rem 1rem;
+	border-radius: 50%;
+}
+.generalTeam
+{
+	background-color: #f5f5f5;
+}
+.generalTeam h4
+{
+	color: #37474F;
+}
+.generalTeam span, #valTeam h4
+{
+	color: #212121;
+}
+#valTeam h4
+{
+	font-weight: 600;
+}
+#footerSM
+{
+	background-color: #CC0000; 
+}
+#footerSM h3
+{
+	color: white;
+	font-weight: bold;
+}
+#footerBrand
+{
+	background-color: #fafafa;
+}
+#footerBrand .h6
+{
+	color: #CC0000; 
+	font-family: Verdana, sans-serif;
+}
+#footerBrand li
+{
+	border: none;
+}
+#cardDeckVideos .card-header:hover
+{
+	border-bottom: 1px solid #CC0000;
+}
+#cardDeckVideos .h5link
+{
+	color: #CC0000;
+}
+#cardDeckVideos .h5link:hover
+{
+	color: #CC0000;
+	border-bottom: 1px solid #CC0000;
+}
+.nrPlayer
+{
+	background-color: #CC0000;
+}
+.nrPlayer h4
+{
+	color: white;
+	font-weight: 900;
+}
+.namePlayer h4
+{
+	color: #212121;
+}
+#containerCalendar hr 
+{
+	border: 2px solid white;
+	border-radius: 3px;
+}
+#Players hr
+{
+	border: 2px solid #CC0000;
+	border-radius: 3px;
+}
+#Players, #transfers
+{
+	width: 100%;
+}
+.hrRed
+{
+	border: 2px solid red;
+	border-radius: 3px;
+}
+.hrBlack
+{
+	border: 2px solid black;
+	border-radius: 3px;
+}
+.hrBlack1px
+{
+	border: 1px solid black;
+	border-radius: 3px;
+}
+.hrWhite
+{
+	border: 2px solid white;
+}
+#headerAdmin
+{
+	background-color: #EEEEEE;
+	color: #CC0000;
+}
+#headerAdmin .card-title, #headerAdmin .fa-newspaper
+{
+	color: #CC0000;	
+}
+/* typography */
+
+/* BUTTONS */
+.btnIntro
+{
+	color: white;
+	background-color: #CC0000;
+	border: 2px solid #CC0000;
+	border-radius: 30px;
+}
+.btnIntro:hover
+{
+	color: red;
+	font-weight: bold;
+	background-color: white;
+	border: 2px solid #CC0000;
+	border-radius: 30px;
+}
+.btnIntroTeam
+{
+	color: #CC0000;
+	font-weight: 900;
+	background-color: white;
+	border-radius: 30px;
+}
+.btnIntroTeam:hover
+{
+	color: red;
+	font-weight: 900;
+	background-color: white;
+	border-radius: 30px;
+}
+#descTeam a
+{
+	text-decoration: none;
+	color: white;
+}
+#descTeam a:hover
+{
+	text-decoration: none;
+	color: white;
+	border-bottom: 1px solid white;
+}
+#descTeam a:visited
+{
+	text-decoration: none;
+	color: white;
+}
+#descTeam a:active
+{
+	text-decoration: none;
+	color: #e0e0e0;
+}
+#cardPlayerEdit .btnEditPlayer, #cardNewsEdit .btnEditPlayer
+{
+	background-color: #CC0000;
+	color: white;
+	padding: 0.5rem 0.75rem;
+}
+#cardPlayerEdit .dropdown-EditPlayer, #cardPlayerEdit  .dropdown-itemEdit,
+#cardNewsEdit .dropdown-EditPlayer, #cardNewsEdit  .dropdown-itemEdit
+{
+	background-color: #CC0000;
+	color: white;
+}
+ #cardPlayerEdit  .dropdown-itemEdit, #cardNewsEdit  .dropdown-itemEdit
+ {
+ 	padding: 0.5rem 0 0.5rem 1rem;
+ }
+ #cardPlayerEdit  .dropdown-itemEdit:hover,  #cardNewsEdit  .dropdown-itemEdit:hover
+{
+	background-color: rgba(255, 255, 255, 0.3);
+}
+#cardPlayerEdit .fa-user-edit, #cardNewsEdit .fa-user-edit
+{
+	background-color: white;
+	color: #CC0000;
+	padding: 0.5rem 0.5rem 0 0.5rem;
+}
+#cardPlayerEdit .btnEditPlayerBrand, #cardNewsEdit .btnEditPlayerBrand
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.socialMediaFooter
+{
+	background-color: white;
+	color: #CC0000; 
+	padding: 0.8rem 1.2rem;
+	text-align: center;
+	border: 2px solid #CC0000;
+	border-radius: 50%;
+}
+.socialMediaFooter:hover
+{
+	color: white;
+	background-color: #CC0000; 
+	padding: 0.8rem 1.2rem;
+	text-align: center;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+.btnVideos
+{
+	background-color: #CC0000;
+	color: white;
+	border: 2px solid #CC0000;
+}
+.btnVideos:hover
+{
+	color: #CC0000;
+	background-color: white;
+	border: 2px solid #CC0000;	
+}
+#carouselVideo .fa-chevron-right, #carouselVideo .fa-chevron-left
+{
+	background-color: rgba(204, 0, 0, 0.7);
+	color: #e0e0e0; 
+}
+#carouselVideo .fa-chevron-right:hover, #carouselVideo .fa-chevron-left:hover
+{
+	background-color: rgb(204, 0, 0);
+	color: white; 
+}
+#carouselVideo .fa-chevron-right
+{
+	padding: 0.5rem 0.8rem 0.5rem 1rem; 
+}
+#carouselVideo .fa-chevron-left
+{
+	padding: 0.5rem 1rem 0.5rem 0.8rem;
+}
+#carouselVideo .carousel-indicators
+{
+	margin-bottom: 3.5rem;
+}
+#carouselVideo .carousel-indicators li, #carouselTeam .carousel-indicators li
+{
+	background-color: rgb(204, 0, 0);
+	width: 0.75rem;
+	height: 0.75rem;
+}
+#carouselTeam .fa-chevron-left, #carouselTeam .fa-chevron-right
+{
+	background-color: rgba(204, 0, 0, 1);
+	color: #e0e0e0;
+	padding: 1rem 0.7rem; 
+}
+#carouselTeam .fa-chevron-left, #carouselTeam .fa-chevron-right
+{
+	background-color: rgb(204, 0, 0);
+	color: white;
+	padding: 1rem 0.7rem; 
+}
+#carouselTeam .carousel-control-prev, #carouselTeam .carousel-control-next
+{
+	width: 3.5rem;
+	height: 3.5rem;
+}
+.linkNewsIntro
+{
+	text-decoration: none;
+	color: white;
+}
+.linkNewsIntro:hover
+{
+	text-decoration: none;
+	color: white;
+	border-bottom: 1px solid white;
+}
+.linkNews
+{
+	text-decoration: none;
+	color: #212121;
+}
+.linkNews:hover
+{
+	text-decoration: none;
+	color: #212121;
+	border-bottom: 1px solid #212121;
+}
+.btnRW
+{
+	background-color:  #CC0000;
+	color: white;
+}
+.btnRW:hover
+{
+	background-color:  #CC0000;
+	color: white;
+}
+.btnEdit .dropdown-menuEdit
+{
+	background-color: #CC0000;
+}
+.btnEdit .dropdown-menuEdit .dropdown-itemEdit
+{
+	background-color: #CC0000;
+	color: white;
+}
+.btnEdit .dropdown-menuEdit .dropdown-itemEdit:hover
+{
+	background-color: rgba(255, 255, 255, 0.3);	
+}
+.navMonths .btn-group 
+{
+	background-color: #CC0000;
+	color: white;
+}
+.navMonths .btn-group .btn
+{
+	background-color: #CC0000;
+	color: white;
+}
+.navMonths .btn-group .btn:hover
+{
+	background-color: rgba(255, 255, 255, 0.3);
+	color: white;
+}
+.navMonths .btn-group .active
+{
+	background-color: white;
+	color: #CC0000;
+}
+.navMonths .btn-group .active:hover
+{
+	background-color: white;
+	color: #CC0000;
+}
+
+.btnGigant 
+{
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btnGigant:hover 
+{
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btnGigant:focus 
+{
+    outline: none;
+}
+
+.btnGigant.color-1
+{
+	background-color: #CC0000;
+	color: white;
+}
+.btnGigant.color-2
+{
+	background-color: white;
+	color: #CC0000;
+}
+
+.btnGigant.gradientColor-1 
+{
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.btnGigant.gradientColor-2 
+{
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+.btnGigant.gradientColor-3 
+{
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+.btnGigant.gradientColor-4 
+{
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+}
+.btnGigant.gradientColor-5 
+{
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+.btnGigant.gradientColor-6 
+{
+    background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
+    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+}
+.btnGigant.gradientColor-7 
+{
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+.btnGigant.gradientColor-8 
+{
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+.btnGigant.gradientColor-9 
+{
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+.btnGigant.gradientColor-10 
+{
+        background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+.btnGigant.gradientColor-11 
+{
+       background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+}
+.mainButton
+{
+    color: #fff;
+    height: 3rem;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background-size: 300% 100%;
+
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.mainButton:hover
+{
+	color: #fff;
+	background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.mainButton:focus
+{
+	outline: none;
+}
+.mainButton.plButton
+{
+	background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+.mainButton.uclButton
+{
+	background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+.mainButton .plIcon, .mainButton .uclIcon
+{
+	height: 1.7rem;
+	width: auto;
+}
+.mainButton .text
+{
+	color: #fff;
+	font-size: 1.5rem;
+	margin-left: 1.5rem;
+}
+.signInButton
+{
+	background-color: rgba(0, 0, 0, 0.25);
+	color: white;
+	border: 2px solid white;
+	padding: 1rem 3rem;
+}
+.signInButton:hover
+{
+	color: white;
+}
+/* buttons */
+
+/* INTRO */
+.carousel-item #newsIntro, #newsIntro .row
+{
+	height: 100%;
+}
+.fa-long-arrow-alt-right
+{
+	color: red;
+}
+.fa-long-arrow-alt-left
+{
+	color: green;
+}
+.transferIntro, .match
+{
+	background-color: rgba(255, 255, 255, 0.4);
+}
+.result
+{
+	color: white;
+	background-color: red;
+	font-weight: bold;
+}
+#containerCalendar .match .iconTeam
+{
+	width: 76px;
+	height: 76px;
+}
+.accountWrapp
+{
+	height: 100vh;
+	background: url('../img/anfield4.jpg') no-repeat center;
+	background-size: cover;
+}
+.view
+{
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#signInProgressBar 
+{
+	height: 0.7rem;
+	position: relative;
+	top: 35%;
+	background-color: white;
+	color: green;
+}
+.accountWrapp ul, .accountWrapp li
+{
+	background-color: transparent;
+	border: none;
+}
+.accountWrapp .signInIco
+{
+	color: rgba(0, 0, 0,0.5);
+	background-color: white;
+	padding: 1.5rem;
+	border-radius: 50%;
+	font-size: 2rem;
+}
+.accountWrapp .loginIco
+{
+	color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 1.5rem;
+	border-radius: 50%;
+	font-size: 2rem;
+	border: 4px solid rgba(0, 0, 0, 0.8);
+}
+.accountWrapp .progressBarText
+{
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: white;
+	margin-top: 1rem;
+}
+.accountWrapp .loginText
+{
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: white;
+	margin-top: 0.5rem;
+}
+.accountWrapp .wrappLoginIco
+{
+	position: relative;
+	bottom: 30%;
+}
+#myAccountIntro .jumbotron-fluid
+{
+	background-color: #CC0000;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 5rem 1rem 1rem;
+	border: 2px solid red;
+}
+#myAccountIntro .title
+{
+	font-family: 'PremierSans-Bold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: bold;
+}
+#myAccountIntro ul
+{
+	margin: 2.5rem 0 0;
+}
+#myAccountIntro ul, #myAccountIntro li
+{
+	background-color: #CC0000;
+	color: white;
+	border: none;
+}
+#myAccountIntro li
+{
+	margin: 0.75rem 1.75rem;
+	padding: 0;
+}
+#myAccountIntro .navsIcon
+{
+	font-size: 3rem;
+}
+#myAccountIntro .navsTitle
+{
+	margin-top: 0.5rem;
+	font-family: "Arial Black", sans-serif;
+}
+#myAccountIntro .nav-link
+{
+	padding: 0.25rem;
+	margin: 0;
+}
+#myAccountContent
+{
+	margin: 3rem 0 2.1rem;
+}
+#myAccountContentWrapp
+{
+	height: 450px;
+	width: auto;
+}
+#myAccountContentWrapp .title
+{
+	font-family: Verdana, sans-serif;
+	color: #212529;
+	margin-left: 1rem;
+}
+#myAccountContentWrapp .myCotentWrapp
+{
+	margin: 2rem 1rem;
+}
+#myAddressDates, #myAuthDates
+{
+	display: none;
+}
+.myCotentWrapp .contentIcon
+{
+	font-size: 2.25rem;
+	color: #CC0000;
+}
+.myCotentWrapp .contentTitle
+{
+	color: #CC0000;
+	font-family: "Arial Black", sans-serif;
+	font-weight: bold;
+	margin: 1rem 0;
+}
+.myCotentWrapp .contetSubTitle
+{
+	color: #212529;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+/* intro */
+
+/* IMAGE */
+.imageFluid
+{
+	width: 100%;
+	height: auto;
+}
+.flag
+{
+	width: 1.3rem;
+	height: 1.3rem;
+}
+#iconF
+{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+#cardDeckVideos .far
+{
+	color: white;
+}
+.teamBrand
+{
+	width: 2rem;
+	height: 2rem;
+}
+#mainCalendar .competitionImage
+{
+	height: 4rem;
+	width: auto;
+	background-color: white;
+	padding: 1rem;
+	border-radius: 50%;
+}
+#mainCalendar .competitionInfo
+{
+	font-size: 1.2rem;
+}
+#mainCalendar .competitionInfo .stadiumIco
+{
+	display: inline-block;
+	height: 1.2rem;
+	width: auto;
+}
+#mainCalendar .dateIco, #mainCalendar .placeIco, #mainCalendar .stadium
+{
+	display: inline-block;
+	width: 3rem;
+	height: auto;
+	color: white;
+}
+#mainCalendar .competitionText
+{
+	font-size: 1rem;
+}
+#mainCalendar .card-header
+{
+	border: none;
+}
+#mainCalendar .card-body
+{
+	margin-top: 1rem;
+	border-top: 4px dashed white;
+	border-bottom: 4px dashed white;
+}
+#mainCalendar .teamText
+{
+	color: white;
+	font-weight: bold;
+	font-family: "Arial Black", sans-serif;
+	font-size: 1.5rem;
+}
+#mainCalendar .teamIco
+{
+	height: 5rem;
+	width: auto;
+}
+#mainCalendar .competitionText
+{
+	color: white;
+	font-family: Arial;
+	font-weight: bolder;
+}
+#mainCalendar .resultText
+{
+	font-size: 3rem;
+	font-family: "Arial Black", sans-serif;
+	font-weight: 900;
+	color: white;
+}
+/* image */
+
+/* OTHER */
+.jumbotronTeamIntro
+{
+	background-color: #CC0000; 
+	color: white;
+	font-size: 600;
+}
+.calendarContent
+{
+	min-height: 350px;
+}
+#descTeam .stadiumIco, .infoMatch .stadiumIco, .calendarContent .stadiumIco
+{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.socialMediaTeamIcon
+{
+	background-color: white;
+	padding: 0.5rem;
+	border-radius: 50%;
+	color:  #CC0000;
+}
+#cardPlayer .card-header, #cardPlayerEdit .card-header
+{
+	background-color: #CC0000;
+}
+#carouselVideo .carousel-inner, #carouselTeam .carousel-inner
+{
+	padding-bottom: 3.5rem;
+}
+#newsIntro .colRedWhite, #newsHeader .colRedWhite
+{
+	background-color: #CC0000;
+	color: white;
+}
+#carouselUcl2005 .carousel-inner, #carouselUcl2019 .carousel-inner
+{
+	background-image: url('../img/ucl2005.jpg');
+	border-image-repeat: no-repeat;
+}
+.tableUcl .loc, .tableUcl .team, .tableUcl .g, .tableUcl .pt
+{
+	font-weight: bold;
+}
+.tableUcl .mp, .tableUcl .w, .tableUcl .d, .tableUcl .l, .tableUcl .gw,
+.tableUcl .ga, .tableUcl .g, .tableUcl .loc
+{
+	text-align: center;
+	font-size: 1.2rem;
+}
+.tableUcl .edit
+{
+	text-align: center;
+}
+.tableUcl .team
+{
+	font-size: 1.2rem;
+}
+.tableUcl .pt
+{
+	text-align: right;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+.tableUcl .ptH
+{
+	text-align: right;
+}
+.tableUcl .grupa
+{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 1.2rem;
+	background-color: #CC0000;
+	color: white;
+}
+.tableUcl .infoGrupa
+{
+	padding: 1rem 3rem;
+}
+.resultsGrupa ul, .resultsGrupa li, .resultMatch li, .resultMatch ul
+{
+	border: none;
+}
+.resultsGrupa li
+{
+	width: 60%;
+}
+.resultMatch li
+{
+	width: 100%;
+}
+.resultsGrupa ul
+{
+	text-align: center;
+}
+.resultsGrupa .teamHome, .resultMatch .teamHome
+{
+	text-align: right;
+}
+.resultsGrupa .teamAway, .resultMatch .teamAway
+{
+	text-align: left;
+}
+.resultsGrupa .teamHome, .resultsGrupa .teamAway
+{
+	font-size: 1.2rem;
+	font-weight: bolder;
+	width: 40%;
+}
+.resultMatch .teamHome, .resultMatch .teamAway
+{
+	font-size: 1.2rem;
+	font-weight: bolder;
+	width: 20%;
+}
+.resultsGrupa .score
+{
+	font-size: 1.2rem;
+	font-weight: bold;
+	width: 20%;
+	text-align: center;
+}
+.resultMatch .score
+{
+	font-size: 1.2rem;
+	font-weight: bold;
+	width: 9%;
+	text-align: center;
+}
+.resultMatch .infoMatch
+{
+	width: 35%;
+	font-size: 1rem;
+}
+.resultMatch .rezumatMatch
+{
+	width: 16%;
+	text-align: right;
+}
+.resultsGrupa .teamWin, .resultMatch .teamWin
+{
+	font-weight: bold;
+}
+.resultMatch .teamSuccess
+{
+	font-weight: bold;
+	color: #CC0000;
+}
+.resultsGrupa .resultEtapa1, .resultMatch .resultEtapa1
+{
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+.resultsGrupa .resultEtapa2, .resultMatch .resultEtapa2
+{
+	border-bottom: 1px solid black;
+}
+.resultsGrupa .etapa, .resultsGrupa .etapaH, .resultMatch .resultMatchH,
+.resultMatch .resultMatchHF
+{
+	margin-bottom: 0.5rem;
+}
+.resultMatch .resultMatchHF
+{
+	margin-left: 11rem;
+}
+.calendarContent .premierLeagueIcon
+{
+	width: auto;
+	height: 3rem;
+}
+.calendarContent .fa-play
+{
+	color: white;
+}
+.calendarContent ul, .calendarContent li
+{
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+.calendarContent .calendarList, .calendarContent .calendarListItem
+{
+	width: 100%;
+	background-color: #f3e5f5;
+}
+.calendarContent .calendarListItem .calendarListItemContent
+{
+	width: 100%;
+} 
+.calendarContent .calendarListItem .calendarListItemContent .calendarDay
+{
+	width: 8%;
+	text-align: left;
+	background-color: #f3e5f5;
+}
+.calendarContent .calendarListItem .calendarListItemContent .calendarLocation
+{
+	width: 30%;
+	text-align: left;
+	background-color: #f3e5f5;
+}
+.calendarContent .calendarListItem .calendarListItemContent .calendarCompetition
+{
+	width: 15%;
+	text-align: center;
+	background-color: #f3e5f5;
+}
+.calendarContent .calendarListItem .calendarListItemContent .calendarOpponent
+{
+	width: 24%;
+	text-align: left;
+	background-color: #f3e5f5;
+}
+.calendarContent .calendarListItem .calendarListItemContent .calendarScore
+{
+	width: 8%;
+	padding: 1rem 0.5rem;
+	text-align: center;
+	color: white;
+	background-color: #0099CC; 
+}
+.calendarContent .calendarListItem .calendarListItemContent .calendarScore .align-middle
+{
+	font-weight: bold;
+}
+.calendarContent .calendarListItem .calendarListItemContent .yellowScore
+{
+	background-color: #FF8800;
+	color: white;
+}
+.calendarContent .calendarListItem .calendarListItemContent .greenScore
+{
+	background-color: #007E33;
+	color: white;
+}
+.calendarContent .calendarListItem .calendarListItemContent .redScore
+{
+	background-color: #CC0000;
+	color: white;
+}
+.calendarContent .calendarListItem .calendarListItemContent .calendarScore .fa-minus
+{
+	color: white;
+}
+.calendarContent .calendarListItem .calendarListItemContent .calendarMore
+{
+	width: 15%;
+	text-align: right;
+	background-color: #f3e5f5;
+}
+.calendarContent .calendarDay .calendarDayItem
+{
+	border: 1px solid gray;
+	border-radius: 100%;
+	padding: 0.5rem 1rem; 
+	color: gray;
+	background-color: white;
+}
+.calendarContent .calendarList .calendarListItemDouble
+{
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+.calendarContent .calendarList .calendarListItemSingle
+{
+	border-bottom: 1px solid black;
+}
+#newsContent .card, #cardNewsEdit, #newsLatest .card
+{
+	height: 100%;
+}
+#transferIntro .cardTransferIntro
+{
+	background-color: transparent;
+	color: white;
+	height: 100%;
+}
+#transferIntro .cardTransferIntro .card-header
+{
+	text-align: center;
+	border: 1px solid white;
+	border-top: none;
+	padding: 0.5rem 0;
+	margin: 0;
+}
+#transferIntro .cardTransferIntro .card-body
+{
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+#transferIntro .cardTransferIntro .card-text
+{
+	color: white;
+}
+#transferIntro .cardTransferIntro .brandTeam
+{
+	width: 4rem;
+	height: 4rem;
+	padding: 0.8rem;
+	background-color: white;
+}
+#transfer .cardTransfer .brandTeam,
+#mainTransfer .cardTransfer .brandTeam
+{
+	width: 3rem;
+	height: 3rem;
+}
+#transferEdit .cardTransfer .brandTeam
+{
+	width: 3rem;
+	height: 3rem;
+}
+#transferIntro .cardTransferIntro .card-footer
+{
+	border: 1px solid white;
+	margin: 0;
+	padding: 0.75rem 0;
+	text-align: center;
+}
+#transferIntro .item
+{
+	padding: 0.5rem 0;
+	margin: 0;
+}
+#transferIntro .item h4
+{
+	padding: 0;
+	margin: 0;
+}
+#transferIntro #sezonContent
+{
+	margin: 0;
+	padding: 0 3rem;
+}
+.calendarNavs ul, .calendarNavs li
+{
+	background-color: #f5f5f5;
+}
+.calendarNavs ul
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+.calendarNavs li
+{
+	flex: auto;
+}
+.calendarNavs .nav-link
+{
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	color: #263238;
+	font-weight: bold;
+	border-bottom: 3px solid #263238;
+	font-size: 1.4rem;
+}
+.calendarNavs .nav-link:hover
+{
+	color: #CC0000;
+	border-bottom: 3px solid #CC0000;
+	background-color: white;
+}
+.calendarNavs .nav-link:active
+{
+	color: #CC0000;
+	border-bottom: 3px solid #CC0000;
+	background-color: white;
+}
+.calendarNavs .nav-link.active
+{
+	color: #CC0000;
+	border-bottom: 3px solid #CC0000;
+	background-color: white;	
+}
+#alertInfoUser.borderAlertInfo 
+{
+	border-left: 5px solid #1266F1;
+}
+#alertInfoUser .iconAertInfo
+{
+	color: #1266F1;
+}
+#alertInfoUser #contentAlert .titlteAlertInfo
+{
+	color: #1266F1;
+	font-family: "Arial Black", sans-serif;	
+	font-weight: 900;
+}
+#alertInfoUser #contentAlert .textAlertInfo
+{
+	color: #1266F1;
+	font-family: Arial, sans-serif;
+	font-weight: 600;	
+}
+.borderDashed
+{
+	border-top: 4px dashed white;
+	border-bottom: 4px dashed white;
+}
+/* OOter */
+
+/* FORMS */
+#clasamentInsert .md-form input:focus, #clasamentEdit .md-form input:focus, 
+#calendarInsert .md-form input:focus, #calendarEdit .md-form input:focus,
+#teamInsert .md-form input:focus, #teamEdit .md-form input:focus,
+#newsInsert .md-form input:focus, #newsEdit .md-form input:focus,
+#transferInsert .md-form input:focus, #transferEdit .md-form input:focus,
+#clasamentInsert .md-form textarea:focus, #clasamentEdit .md-form textarea:focus, 
+#calendarInsert .md-form textarea:focus, #calendarEdit .md-form textarea:focus,
+#teamInsert .md-form textarea:focus, #teamEdit .md-form textarea:focus,
+#newsInsert .md-form textarea:focus, #newsEdit .md-form textarea:focus,
+#transferInsert .md-form textarea:focus, #transferEdit .md-form textarea:focus
+{
+	border-bottom: 2px solid #CC0000;
+}
+#clasamentInsert .md-form input, #clasamentEdit .md-form input, 
+#calendarInsert .md-form input, #calendarEdit .md-form input,
+#teamInsert .md-form input, #teamEdit .md-form input,
+#newsInsert .md-form input, #newsEdit .md-form input,
+#transferInsert .md-form input, #transferEdit .md-form input,
+#clasamentInsert .md-form textarea, #clasamentEdit .md-form textarea, 
+#calendarInsert .md-form textarea, #calendarEdit .md-form textarea,
+#teamInsert .md-form textarea, #teamEdit .md-form textarea,
+#newsInsert .md-form textarea, #newsEdit .md-form textarea,
+#transferInsert .md-form textarea, #transferEdit .md-form textarea,
+#clasamentInsert .md-form select, #clasamentEdit .md-form select, 
+#calendarInsert .md-form select, #calendarEdit .md-form select,
+#teamInsert .md-form select, #teamEdit .md-form select,
+#newsInsert .md-form select, #newsEdit .md-form select,
+#transferInsert .md-form select, #transferEdit .md-form select
+{
+	font-weight: bold;
+}
+#clasamentInsert .md-form input:focus, #clasamentEdit .md-form input:focus, 
+#calendarInsert .md-form input:focus, #calendarEdit .md-form input:focus,
+#teamInsert .md-form input:focus, #teamEdit .md-form input:focus,
+#newsInsert .md-form input:focus, #newsEdit .md-form input:focus,
+#transferInsert .md-form input:focus, #transferEdit .md-form input:focus,
+#clasamentInsert .md-form textarea:focus, #clasamentEdit .md-form textarea:focus, 
+#calendarInsert .md-form textarea:focus, #calendarEdit .md-form textarea:focus,
+#teamInsert .md-form textarea:focus, #teamEdit .md-form textarea:focus,
+#newsInsert .md-form textarea:focus, #newsEdit .md-form textarea:focus,
+#transferInsert .md-form textarea:focus, #transferEdit .md-form textarea:focus,
+#clasamentInsert .md-form select:focus, #clasamentEdit .md-form select:focus, 
+#calendarInsert .md-form select:focus, #calendarEdit .md-form select:focus,
+#teamInsert .md-form select:focus, #teamEdit .md-form select:focus,
+#newsInsert .md-form select:focus, #newsEdit .md-form select:focus,
+#transferInsert .md-form select:focus, #transferEdit .md-form select:focus
+{
+	color: #CC0000;
+	font-weight: bold;
+}
+#clasamentInsert .md-form input:focus:not([readonly]) + label,
+#clasamentEdit .md-form input:focus:not([readonly]) + label, 
+#calendarInsert .md-form input:focus:not([readonly]) + label,
+#calendarEdit .md-form input:focus:not([readonly]) + label,
+#teamInsert .md-form input:focus:not([readonly]) + label,
+#teamEdit .md-form input:focus:not([readonly]) + label,
+#newsInsert .md-form input:focus:not([readonly]) + label,
+#newsEdit .md-form input:focus:not([readonly]) + label,
+#transferInsert .md-form input:focus:not([readonly]) + label,
+#transferEdit .md-form input:focus:not([readonly]) + label,
+#clasamentInsert .md-form textarea:focus:not([readonly]) + label,
+#clasamentEdit .md-form textarea:focus:not([readonly]) + label, 
+#calendarInsert .md-form textarea:focus:not([readonly]) + label,
+#calendarEdit .md-form textarea:focus:not([readonly]) + label,
+#teamInsert .md-form textarea:focus:not([readonly]) + label,
+#teamEdit .md-form textarea:focus:not([readonly]) + label,
+#newsInsert .md-form textarea:focus:not([readonly]) + label,
+#newsEdit .md-form textarea:focus:not([readonly]) + label,
+#transferInsert .md-form textarea:focus:not([readonly]) + label,
+#transferEdit .md-form textarea:focus:not([readonly]) + label
+{
+	color: #CC0000;
+}
+#clasamentInsert .md-form select:focus, #clasamentEdit .md-form select:focus, 
+#calendarInsert .md-form select:focus, #calendarEdit .md-form select:focus,
+#teamInsert .md-form select:focus, #teamEdit .md-form select:focus,
+#newsInsert .md-form select:focus, #newsEdit .md-form select:focus,
+#transferInsert .md-form select:focus, #transferEdit .md-form select:focus
+{
+	border: 2px solid #CC0000;
+}
+.md-form .prefix.active 
+{
+    color: #CC0000;
+}
+#clasamentInsert .md-form label.active, #clasamentEdit .md-form label.active,
+#calendarInsert .md-form label.active, #calendarEdit .md-form label.active,
+#newsInsert .md-form label.active, #newsEdit .md-form label.active,
+#teamInsert .md-form label.active, #teamEdit .md-form label.active,
+#transferInsert .md-form label.active, #transferEdit .md-form label.active
+{
+	color: #CC0000;
+}
+#userInsert, #userEdit
+{
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 2rem;
+}
+.acountForm .md-form label, .acountForm .md-form label
+{
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: bold;
+}
+.acountForm .md-form input, .acountForm .md-form select,
+#userInsert .md-form label.active, #userEdit .md-form label.active,
+#login .md-form label.active
+{
+	color: white;
+	font-weight: bold;
+	background-color: transparent;
+}
+#userInsert #keyInput
+{
+	display: none;
+}
+#userInsert .checkbox-container
+{
+	margin: 24px 0;
+}
+#userInsert .checkbox-label
+{
+	font-size: 1.5rem;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	line-height: 1rem;
+	color: white;
+	background-color: transparent;
+}
+#userInsert .checkbox-input 
+{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 1rem;
+    background-color: white;
+    border-radius:5%;
+    margin-right: 0.5rem;
+    position: relative;
+    top: 0.5rem;
+}
+#userInsert .checkbox-input:checked 
+{
+    background-color: green;
+    position: relative;
+    top: 0;
+}
+#userInsert .checkbox-input:checked:before
+{
+	content:"\2713";
+    color: white;
+    padding: initial;
+    font-weight: bold;
+}
+#userInsert .md-form input:focus, #userEdit .md-form input:focus,
+#login .md-form input:focus
+{
+	border-bottom: 2px solid white;
+}
+.acountForm .prefix
+{
+	color: rgba(255, 255, 255, 0.5);
+}
+.acountForm .prefix.active
+{
+	color: white;
+}
+#userInsert #dateOfBirth, #userInsert #dateLabel
+{
+	background-color: transparent;
+	color: white;
+}
+.selectSign select, .selectSign select option 
+{
+	background-color: transparent;
+	color: black;
+	font-weight: bold;
+}
+.selectSign select option 
+{
+	color: black;
+}
+#acountDates, #finishSignIn, #step2, #step3
+{
+	display: none;
+}
+#finishSignIn li
+{
+	padding: 0 1rem;
+	margin-bottom: 0.5rem;
+}
+#finishSignIn .inputName
+{
+	display: inline-block;
+	min-width: 50%;
+}
+#finishSignIn .inputName, #finishSignIn .inputValue
+{
+	color: white;
+	font-size: 1rem;
+	font-weight: bolder;
+	font-family: Arial, sans-serif;
+}
+#userInsertContent
+{
+	width: auto;
+	height: 250px;
+}
+#signIn #userInsert
+{
+	margin: 1.5rem 1rem;
+	padding: 1.5rem 2rem;
+}
+.containerSignIn
+{
+	padding: 1.5rem 3rem;
+}
+#finishSignIn
+{
+	margin: 0;
+}
+#personaleDates, #acountDates, #finishSignIn
+{
+	margin-top: 2rem;
+}
+.accountAlt
+{
+	padding: 0.5rem 1rem;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	display: inline-block;
+}
+.accountAlt.whiteText
+{
+	border-left: 4px solid white;
+	color: white;
+}
+.accountAlt.blackText
+{
+	border-left: 4px solid black;
+	color: black;
+}
+.accountAlt .link
+{
+	font-weight: 900;
+	font-family: "Arial Black", sans-serif;
+	display: inline-block;
+}
+.accountAlt .link.whiteLink
+{
+	color: rgba(255, 255, 255, 0.7);
+}
+.accountAlt .link.blackLink
+{
+	color: rgba(0, 0, 0, 0.7);
+}
+.accountAlt .link:hover
+{
+	font-weight: 900;
+	font-family: "Arial Black", sans-serif;
+}
+.accountAlt .link:active
+{
+	font-weight: 900;
+	font-family: "Arial Black", sans-serif;
+}
+.accountAlt .link.blackLink:hover
+{
+	color: black;
+	border-bottom: 1px solid black;
+}
+.accountAlt .link.blackLink:active
+{
+	color: black;
+	border-bottom: 1px solid black;
+}
+.accountAlt .link.whiteLink:hover
+{	
+	color: white;
+	border-bottom: 1px solid white;
+}
+.accountAlt .link.whiteLink:active
+{	
+	color: white;
+	border-bottom: 1px solid white;
+}
+.displayLarge
+{
+	display: none;
+}
+/* forms */
+
+/* EXTRA LARGE DEVICES */
+@media (min-width: 1556px)
+{
+	#newsHeader .newsTitle
+	{
+		font-size: 2rem;
+	}
+	#newsHeader .newsText
+	{
+		font-size: 1.25rem;
+	}
+	#newsHeader .newsLink
+	{
+		font-size: 1rem;
+	}
+}	
+/* EXTRA LARGE DEVICES */
+
+/* EXTRA LARGE DEVICES */
+@media (min-width: 1200px)
+{
+	#teamI
+	{
+		width: 9rem;
+		height: 9rem;
+		padding: 1.2rem;
+	}
+	#imgStadiumTeam
+	{
+		width: 100%;
+		height: 100%;
+	}
+	#newsHeader .newsTitle
+	{
+		font-size: 1.5rem;
+	}
+	#newsHeader .newsText
+	{
+		font-size: 1rem;
+	}
+	#newsHeader .newsLink
+	{
+		font-size: 0.9rem;
+	}
+	.mt-lg-28px
+	{
+		margin-top: 28px;
+	}
+	.displayLarge
+	{
+		display: block;
+	}
+}
+/* extra large devices */
+
+/* EXTRA LARGE HD */
+@media (min-width: 1200px) and (max-width: 1919px)
+{
+	#signIn #signInProgressBar
+	{
+		height: 0.5rem;
+		position: relative;
+		top: 30%;
+	}
+	#signIn .progressBarText
+	{
+		font-size: 1.2rem;
+		margin-bottom: 0;
+	}
+	#signIn .signInIco
+	{
+		padding: 1rem;
+		font-size: 1.5rem;
+	}
+	#signIn #userInsert
+	{
+		margin: 1rem 0.75rem;
+		padding: 1rem 1.5rem;
+	}
+	#userInsertContent
+	{
+		width: auto;
+		height: 250px;
+	}
+	.signInButton
+	{
+		padding: 0.5rem 2rem;
+		border: 1px solid white;
+	}
+	.containerSignIn
+	{
+		padding: 1rem 2rem;
+	}
+	#signIn #signInProgressBarElemets .list-group-item
+	{
+		padding-top: 0;
+	}
+	#personaleDates, #acountDates, #finishSignIn
+	{
+		margin-top: 1rem;
+	}
+	.btnGigant
+	{
+		width: 180px;
+		height: 51px;
+		margin: 15px;
+		font-size: 14px;
+	}
+	#userInsert .checkbox-container
+	{
+		margin: 30px 0;
+	}
+	#userInsert .checkbox-label
+	{
+		font-size: 1.2rem;
+		line-height: 0.8rem;
+	}
+	#userInsert .checkbox-input 
+	{
+	    padding: 0.8rem;
+	}
+	.accountAlt.text
+	{
+		font-size: 14px;
+	}
+}
+/* extra large hd */
+
+/* LARGE DEVICES */
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	#containerTransfer
+	{
+		height: 100%;
+	}
+	#containerTransfer .row
+	{
+		height: 33%;
+	}
+	#containerCalendar .match .iconTeam
+	{
+		width: 56px;
+		height: 56px;
+	}
+	#teamI
+	{
+		width: 8rem;
+		height: 8rem;
+		padding: 1rem;
+	}
+	#imgStadiumTeam
+	{
+		width: 100%;
+		height: 100%;
+	}
+	#newsHeader .newsTitle
+	{
+		font-size: 1.5rem;
+	}
+	#newsHeader .newsText
+	{
+		font-size: 1rem;
+	}
+	#newsHeader .newsLink
+	{
+		font-size: 0.9rem;
+	}
+	#transfer .cardTransfer .brandTeam
+	{
+		width: 2rem;
+		height: 2rem;
+	}
+	#transferEdit .cardTransfer .brandTeam
+	{
+		width: 2rem;
+		height: 2rem;
+	}
+	#transferIntro #sezonContent
+	{
+		margin: 0;
+		padding: 0 5rem;
+	}
+	#mainCalendar .resultText
+	{
+		font-size: 2.5rem;
+		font-family: "Arial Black", sans-serif;
+		font-weight: 900;
+		color: white;
+	}
+	.mt-lg-28px
+	{
+		margin-top: 28px;
+	}
+	#signIn #signInProgressBar
+	{
+		height: 0.4rem;
+		position: relative;
+		top: 30%;
+	}
+	#signIn .progressBarText
+	{
+		font-size: 1rem;
+		margin-bottom: 0;
+	}
+	#signIn .signInIco
+	{
+		padding: 0.8rem;
+		font-size: 1.3rem;
+	}
+	#signIn #userInsert
+	{
+		margin: 1rem 0.75rem;
+		padding: 1rem 1.5rem;
+	}
+	#userInsertContent
+	{
+		width: auto;
+		height: 250px;
+	}
+	.signInButton
+	{
+		padding: 0.5rem 1.6rem;
+		border: 1px solid white;
+	}
+	.containerSignIn
+	{
+		padding: 0.8rem 1.6rem;
+	}
+	#signIn #signInProgressBarElemets .list-group-item
+	{
+		padding-top: 0;
+	}
+	#personaleDates, #acountDates, #finishSignIn
+	{
+		margin-top: 0.8rem;
+	}
+	.btnGigant
+	{
+		width: 160px;
+		height: 45px;
+		margin: 12px;
+		font-size: 12px;
+	}
+	#userInsert .checkbox-container
+	{
+		margin: 30px 0;
+	}
+	#userInsert .checkbox-label
+	{
+		font-size: 1.2rem;
+		line-height: 0.8rem;
+	}
+	#userInsert .checkbox-input 
+	{
+	    padding: 0.8rem;
+	}
+	.accountAlt.text
+	{
+		font-size: 12px;
+	}
+	.displayLarge
+	{
+		display: block;
+	}
+}
+/* large devices */
+
+/* MEDIUM DEVICES */
+@media (min-width: 768px) and (max-width: 991px)
+{
+	#containerTransfer
+	{
+		height: 100%;
+	}
+	#containerTransfer .row
+	{
+		height: 33%;
+	}
+	#containerCalendar .match .iconTeam
+	{
+		width: 56px;
+		height: 56px;
+	}
+	#teamI
+	{
+		width: 8rem;
+		height: 8rem;
+		padding: 1rem;
+	}
+	#imgStadiumTeam
+	{
+		width: 100%;
+		height: auto;
+	}
+	#newsHeader .newsTitle
+	{
+		font-size: 1.5rem;
+	}
+	#newsHeader .newsText
+	{
+		font-size: 1rem;
+	}
+	#newsHeader .newsLink
+	{
+		font-size: 0.9rem;
+	}
+	#mainCalendar .card-body
+	{
+		border: none;
+		margin-top: 0;
+	}
+	#mainCalendar .teamIco
+	{
+		height: 3.5rem;
+		width: auto;
+	}
+	#mainCalendar .teamText
+	{
+		font-size: 1.2rem;
+	}
+	#mainCalendar .resultText
+	{
+		font-size: 2rem;
+		font-family: "Arial Black", sans-serif;
+		font-weight: 900;
+		color: white;
+	}
+	.containerSignIn
+	{
+		margin-top: 58px;
+	}
+	.accountWrapp
+	{
+		height: 100vh;
+	}
+	.mt-32px
+	{
+		margin-top: 32px;
+	}
+	#signIn #signInProgressBar
+	{
+		height: 0.4rem;
+		position: relative;
+		top: 30%;
+	}
+	#signIn .progressBarText
+	{
+		font-size: 1rem;
+		margin-bottom: 0;
+	}
+	#signIn .signInIco
+	{
+		padding: 0.8rem;
+		font-size: 1.3rem;
+	}
+	#signIn #userInsert
+	{
+		margin: 1rem 0.75rem;
+		padding: 1rem 1.5rem;
+	}
+	#userInsertContent
+	{
+		width: auto;
+		height: 380px;
+	}
+	.signInButton
+	{
+		padding: 0.5rem 1.6rem;
+		border: 1px solid white;
+	}
+	.containerSignIn
+	{
+		padding: 0.8rem 1.6rem;
+	}
+	#signIn #signInProgressBarElemets .list-group-item
+	{
+		padding-top: 0;
+	}
+	#personaleDates, #acountDates, #finishSignIn
+	{
+		margin-top: 0.8rem;
+	}
+	.btnGigant
+	{
+		width: 160px;
+		height: 45px;
+		margin: 12px;
+		font-size: 12px;
+	}
+	#userInsert .checkbox-container
+	{
+		margin: 24px 0;
+	}
+	#userInsert .checkbox-label
+	{
+		font-size: 1.2rem;
+		line-height: 0.8rem;
+	}
+	#userInsert .checkbox-input 
+	{
+	    padding: 0.8rem;
+	}
+	.accountAlt.text
+	{
+		font-size: 12px;
+	}
+	#myAccountContentWrapp
+	{
+		height: 616px;
+		width: auto;
+	}
+}
+/* medium devices */
+
+/* SMALL DEVICES */
+@media (min-width: 576px) and (max-width: 767px)
+{
+	#containerTransfer
+	{
+		height: 100%;
+	}
+	#containerTransfer .row
+	{
+		height: 33%;
+	}	
+	#containerCalendar .match .iconTeam
+	{
+		width: 76px;
+		height: 76px;
+	}
+	#newsIntro p
+	{
+		font-size: 1rem;
+		line-height: 1.4rem;
+	}
+	#newsHeader p
+	{
+		font-size: 1rem;
+		line-height: 1.4rem;
+	}
+	#teamI
+	{
+		width: 6rem;
+		height: 6rem;
+		padding: 1rem;
+	}
+	#imgStadiumTeam
+	{
+		width: 100%;
+		height: auto;
+	}
+	.socialMediaFooter
+	{
+		background-color: white;
+		color: #CC0000; 
+		padding: 0.5rem 0.8rem;
+		text-align: center;
+		border: 2px solid #CC0000;
+		border-radius: 50%;
+	}
+	.socialMediaFooter:hover
+	{
+		color: white;
+		background-color: #CC0000; 
+		padding: 0.5rem 0.8rem;
+		text-align: center;
+		border: 2px solid white;
+		border-radius: 50%;
+	}
+	#newsHeader .newsTitle
+	{
+		font-size: 1.5rem;
+	}
+	#newsHeader .newsText
+	{
+		font-size: 1rem;
+	}
+	#newsHeader .newsLink
+	{
+		font-size: 0.9rem;
+	}
+	#transfer .cardTransfer .brandTeam
+	{
+		width: 2rem;
+		height: 2rem;
+	}
+	#transferEdit .cardTransfer .brandTeam
+	{
+		width: 2rem;
+		height: 2rem;
+	}
+	#transferIntro #sezonContent
+	{
+		margin: 0;
+		padding: 0 2rem;
+	}
+	#mainCalendar .competitionInfo, #mainCalendar .competitionImage
+	{
+		display: none;
+	}
+	#mainCalendar .card-body
+	{
+		border: none;
+		margin-top: 0;
+	}
+	#mainCalendar .teamIco
+	{
+		height: 2.5rem;
+		width: auto;
+	}
+	#mainCalendar .teamText
+	{
+		font-size: 1rem;
+	}
+	#mainCalendar .resultText
+	{
+		font-size: 1.5rem;
+		font-family: "Arial Black", sans-serif;
+		font-weight: 900;
+		color: white;
+	}
+	.mb-sm-24px
+	{
+		margin-bottom: 24px;
+	}
+	.mt-32px
+	{
+		margin-top: 32px;
+	}
+	.containerSignIn
+	{
+		margin-top: 58px;
+	}
+	.accountWrapp
+	{
+		min-height: 100vh;
+		height: auto;
+	}
+	.loginWrapp
+	{
+		height: 100vh;
+	}
+	#signIn #signInProgressBar
+	{
+		height: 0.4rem;
+		position: relative;
+		top: 30%;
+	}
+	#signIn .progressBarText
+	{
+		font-size: 0.8rem;
+		margin-bottom: 0;
+	}
+	#signIn .signInIco
+	{
+		padding: 0.8rem;
+		font-size: 1.3rem;
+	}
+	#signIn #userInsert
+	{
+		margin: 1rem 0.75rem;
+		padding: 1rem 1.5rem;
+	}
+	#userInsertContent
+	{
+		width: auto;
+		height: auto;
+	}
+	.signInButton
+	{
+		padding: 0.5rem 1.6rem;
+		border: 1px solid white;
+	}
+	.containerSignIn
+	{
+		padding: 0.8rem 1.6rem;
+	}
+	#signIn #signInProgressBarElemets .list-group-item
+	{
+		padding-top: 0;
+	}
+	#personaleDates, #acountDates, #finishSignIn
+	{
+		margin-top: 0.8rem;
+	}
+	.btnGigant
+	{
+		width: 160px;
+		height: 45px;
+		margin: 12px;
+		font-size: 12px;
+	}
+	#userInsert .checkbox-container
+	{
+		margin: 24px 0;
+	}
+	#userInsert .checkbox-label
+	{
+		font-size: 1.2rem;
+		line-height: 0.8rem;
+	}
+	#userInsert .checkbox-input 
+	{
+	    padding: 0.8rem;
+	}
+	.accountAlt.text
+	{
+		font-size: 12px;
+	}
+	#myAccountContentWrapp
+	{
+		height: 616px;
+		width: auto;
+	}
+	#myAccountIntro .title
+	{
+		font-size: 1.75rem;
+	}
+}
+/* small devices */
+
+/* EXTRA SMALL DEVICES */
+@media (max-width: 575px)
+{
+	#newsIntro p
+	{
+		font-size: 1rem;
+		line-height: 1.4rem;
+	}
+	#newsHeader p
+	{
+		font-size: 1rem;
+		line-height: 1.4rem;
+	}
+	#teamI
+	{
+		width: 5.5rem;
+		height: 5.5rem;
+		padding: 0.8rem;
+	}
+	#imgStadiumTeam
+	{
+		width: 100%;
+		height: auto;
+	}
+	.socialMediaFooter
+	{
+		background-color: white;
+		color: #CC0000; 
+		padding: 0.5rem 0.8rem;
+		text-align: center;
+		border: 2px solid #CC0000;
+		border-radius: 50%;
+	}
+	.socialMediaFooter:hover
+	{
+		color: white;
+		background-color: #CC0000; 
+		padding: 0.5rem 0.8rem;
+		text-align: center;
+		border: 2px solid white;
+		border-radius: 50%;
+	}
+	#newsHeader .newsTitle
+	{
+		font-size: 1rem;
+	}
+	#newsHeader .newsText
+	{
+		font-size: 0.75rem;
+	}
+	#newsHeader .newsLink
+	{
+		font-size: 0.7rem;
+	}
+	#transfer .cardTransfer .brandTeam
+	{
+		width: 2rem;
+		height: 2rem;
+	}
+	#transferEdit .cardTransfer .brandTeam
+	{
+		width: 2rem;
+		height: 2rem;
+	}
+	#transferIntro #sezonContent
+	{
+		margin: 0;
+		padding: 0 2rem;
+	}
+	#mainCalendar .competitionInfo, #mainCalendar .competitionImage
+	{
+		display: none;
+	}
+	#mainCalendar .card-body
+	{
+		border: none;
+		margin-top: 0;
+	}
+	#mainCalendar .teamIco
+	{
+		height: 2rem;
+		width: auto;
+	}
+	#mainCalendar .teamText
+	{
+		font-size: 1rem;
+	}
+	#mainCalendar .resultText
+	{
+		font-size: 1.5rem;
+		font-family: "Arial Black", sans-serif;
+		font-weight: 900;
+		color: white;
+	}
+	.containerSignIn
+	{
+		margin-top: 58px;
+	}
+	.accountWrapp
+	{
+		min-height: 100vh;
+		height: auto;
+	}
+	.mt-32px
+	{
+		margin-top: 32px;
+	}
+	.loginWrapp
+	{
+		height: 100vh;
+	}
+	#signIn #signInProgressBar
+	{
+		height: 0.4rem;
+		position: relative;
+		top: 30%;
+	}
+	#signIn .progressBarText
+	{
+		font-size: 0.7rem;
+		margin-bottom: 0;
+	}
+	#signIn .signInIco
+	{
+		padding: 0.8rem;
+		font-size: 1.3rem;
+	}
+	#signIn #userInsert
+	{
+		margin: 1rem 0.75rem;
+		padding: 1rem 1.5rem;
+	}
+	#userInsertContent
+	{
+		width: auto;
+		height: auto;
+	}
+	.signInButton
+	{
+		padding: 0.5rem 1.6rem;
+		border: 1px solid white;
+	}
+	.containerSignIn
+	{
+		padding: 0.8rem 1.6rem;
+	}
+	#signIn #signInProgressBarElemets .list-group-item
+	{
+		padding-top: 0;
+	}
+	#personaleDates, #acountDates, #finishSignIn
+	{
+		margin-top: 0.8rem;
+	}
+	.btnGigant
+	{
+		width: 160px;
+		height: 45px;
+		margin: 12px;
+		font-size: 12px;
+	}
+	#userInsert .checkbox-container
+	{
+		margin: 24px 0;
+	}
+	#userInsert .checkbox-label
+	{
+		font-size: 1.2rem;
+		line-height: 0.8rem;
+	}
+	#userInsert .checkbox-input 
+	{
+	    padding: 0.8rem;
+	}
+	.accountAlt.text
+	{
+		font-size: 12px;
+	}
+	#myAccountContentWrapp
+	{
+		height: auto;
+		width: auto;
+	}
+	#myAccountIntro .title
+	{
+		font-size: 1.75rem;
+	}
+}
+/* extra small devices */
+
+/* extra small devices */
+@media (max-width: 405px)
+{
+	#newsHeader .newsTitle
+	{
+		font-size: 1rem;
+		margin: 0;
+		padding: 0;
+	}
+	#newsHeader .newsText
+	{
+		display: none;
+	}
+	#newsHeader .newsLink
+	{
+		font-size: 0.7rem;
+		margin: 0.25rem 0 0 0;
+		padding: 0;
+	}
+	.hrNews
+	{
+		display: none;
+	}
+	#mainCalendar .competitionInfo, #mainCalendar .competitionImage
+	{
+		display: none;
+	}
+	#mainCalendar .card-body
+	{
+		border: none;
+		margin-top: 0;
+	}
+	#mainCalendar .teamIco
+	{
+		height: 1.7rem;
+		width: auto;
+	}
+	#mainCalendar .teamText
+	{
+		font-size: 0.7rem;
+	}
+	#mainCalendar .resultText
+	{
+		font-size: 1rem;
+		font-family: "Arial Black", sans-serif;
+		font-weight: 900;
+		color: white;
+	}
+	.containerSignIn
+	{
+		margin-top: 58px;
+	}
+	.accountWrapp
+	{
+		min-height: 100vh;
+		height: auto;
+	}
+	.loginWrapp
+	{
+		height: 100vh;
+	}
+	#signIn #signInProgressBar
+	{
+		height: 0.4rem;
+		position: relative;
+		top: 30%;
+	}
+	#signIn .progressBarText
+	{
+		font-size: 0.7rem;
+		margin-bottom: 0;
+	}
+	#signIn .signInIco
+	{
+		padding: 0.8rem;
+		font-size: 1.3rem;
+	}
+	#signIn #userInsert
+	{
+		margin: 1rem 0.75rem;
+		padding: 1rem 1.5rem;
+	}
+	#userInsertContent
+	{
+		width: auto;
+		height: auto;
+	}
+	.signInButton
+	{
+		padding: 0.5rem 1.6rem;
+		border: 1px solid white;
+	}
+	.containerSignIn
+	{
+		padding: 0.8rem 1.6rem;
+	}
+	#signIn #signInProgressBarElemets .list-group-item
+	{
+		padding-top: 0;
+	}
+	#personaleDates, #acountDates, #finishSignIn
+	{
+		margin-top: 0.8rem;
+	}
+	.btnGigant
+	{
+		width: 160px;
+		height: 45px;
+		margin: 12px;
+		font-size: 12px;
+	}
+	#userInsert .checkbox-container
+	{
+		margin: 24px 0;
+	}
+	#userInsert .checkbox-label
+	{
+		font-size: 1.2rem;
+		line-height: 0.8rem;
+	}
+	#userInsert .checkbox-input 
+	{
+	    padding: 0.8rem;
+	}
+	.accountAlt.text
+	{
+		font-size: 12px;
+	}
+	#myAccountContentWrapp
+	{
+		height: auto;
+		width: auto;
+	}
+	#myAccountIntro .title
+	{
+		font-size: 1.5rem;
+	}
+}
+/* extra small devices */
+
+/* FOOTER */
+@media (min-height: 768px) and (min-width: 768px)
+{
+	.fix
+	{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+}
+@media (min-height: 768px) and (min-width: 1200px)
+{
+	.fixXl
+	{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+}
+@media (min-height: 900px) and (min-width: 1200px)
+{
+	.fixXlTeam
+	{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+}
+@media (min-height: 768px) and (min-width: 992px)
+{
+	.fixLg
+	{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;	
+	}
+}
+/* footer */
