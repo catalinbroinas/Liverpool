@@ -6,7 +6,7 @@ The MAIN Functionalities are:
 * login of higher complexity
 * view account information from database
 * admistration website from administration panel (admin account is necessary)
-* dynamic conent
+* dynamic content
 
 The MAIN features:
 * server-side validation of higher complexity for all forms
@@ -18,6 +18,7 @@ Website content admin:
 * transfer
 * calendar
 * table
+
 Admin key is "liverpool19".
 
 This site was made in Romanian.
