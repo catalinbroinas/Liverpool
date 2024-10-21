@@ -1,14 +1,14 @@
 # Liverpool - A Dynamic Website
-This is my MAIN website. It has a modern, attractive and responsive design. 
+This is my main website, built with PHP and MySQL. It features a modern, attractive, and responsive design
 
-The MAIN Functionalities are:
+The main Functionalities are:
 * register of higher complexity
 * login of higher complexity
 * view account information from database
 * admistration website from administration panel (admin account is necessary)
 * dynamic conent
 
-The MAIN features:
+The main features:
 * server-side validation of higher complexity for all forms
 * client-side validation of higher complexity for all forms
 
